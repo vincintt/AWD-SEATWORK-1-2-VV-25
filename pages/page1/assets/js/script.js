@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const cars = [
+    let cars = JSON.parse(localStorage.getItem("cars")) || [
         { id: 1, name: "Toyota Corolla", image: "https://i.imgur.com/u3rWidp.jpg", available: true, price: 50 },
         { id: 2, name: "Honda Civic", image: "https://i.imgur.com/oEzDdQb.jpg", available: true, price: 60 },
         { id: 3, name: "Ford Mustang", image: "https://i.imgur.com/Kg3eUHz.jpg", available: true, price: 70 },
@@ -13,6 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
     const carList = document.getElementById("carList");
+
+    function saveToLocalStorage() {
+        localStorage.setItem("cars", JSON.stringify(cars));
+    }
 
     function renderCars() {
         carList.innerHTML = "";
@@ -33,13 +37,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     window.rentCar = function(id) {
         const car = cars.find(c => c.id === id);
-        if (car) {
-            if (car.available) {
+        if (car && car.available) {
+            processPayment(car.price, () => {
                 car.available = false;
+                saveToLocalStorage();
                 renderCars();
-            } else {
-                alert(`${car.name} is already rented.`);
-            }
+            });
+        } else {
+            alert(`${car.name} is already rented.`);
         }
     };
 
@@ -47,9 +52,19 @@ document.addEventListener("DOMContentLoaded", () => {
         const car = cars.find(c => c.id === id);
         if (car && !car.available) {
             car.available = true;
+            saveToLocalStorage();
             renderCars();
         }
     };
+
+    function processPayment(amount, callback) {
+        if (confirm(`Proceed with payment of $${amount}?`)) {
+            alert("Payment successful!");
+            callback();
+        } else {
+            alert("Payment cancelled.");
+        }
+    }
 
     renderCars();
 });
