@@ -6,23 +6,23 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="https://vitalentum.net/upload/007/u736/f/d/red-sports-car-in-dark-room-elegant-inking-techniques-photo-photos-big.webp" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Dark Room Rentals</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This project is about a car rental web
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=vincintt/AWD-SEATWORK-1-2-VV-25)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/projects/AWD-SEATWORK%201%20-%202%20-VV%20-%2025)
 
 ---
 
@@ -63,17 +63,17 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+  The Dark Room Rentals website is a basic online car rental platform that allows users to browse and rent from a fleet of 10 available cars. The website provides an intuitive interface for users to check car availability, book a rental, and manage their reservations effortlessly.
+  
 - Whats the purpose
-- What are key components
-- What technology used and how it is used
+ The main goal of this project is to simplify the car rental process for customers by offering a minimalistic, user-friendly, and efficient online booking system. It is designed for small businesses or startups looking to operate with a limited fleet while still providing a seamless rental experience.
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
-
+Home Page – Shows a simple black homepage
+Car Listings Page – Displays details about each of the 10 cars, including availability status.
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
