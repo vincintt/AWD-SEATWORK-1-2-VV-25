@@ -61,18 +61,18 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-  The Dark Room Rentals website is a basic online car rental platform that allows users to browse and rent from a fleet of 10 available cars. The website provides an intuitive interface for users to check car availability, book a rental, and manage their reservations effortlessly.
+
+
+  The Dark Room Rentals website is a basic online car rental platform that allows users to browse and rent from a fleet of 10 available cars. The website provides an intuitive interface for users to check car availability, book a rental, and manage their reservations effortlessly.<br>
   
-- Whats the purpose
- The main goal of this project is to simplify the car rental process for customers by offering a minimalistic, user-friendly, and efficient online booking system. It is designed for small businesses or startups looking to operate with a limited fleet while still providing a seamless rental experience.
+
+ The main goal of this project is to simplify the car rental process for customers by offering a minimalistic, user-friendly, and efficient online booking system. It is designed for small businesses or startups looking to operate with a limited fleet while still providing a seamless rental experience.<br>
 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-Home Page – Shows a simple black homepage
+Home Page – Shows a simple black homepage<br>
 Car Listings Page – Displays details about each of the 10 cars, including availability status.
 ### Technology
 <!-- TODO: List of Technology Used -->
